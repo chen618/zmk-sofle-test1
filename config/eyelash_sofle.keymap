@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans             &mmv MOVE_UP     &trans           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp INSERT  &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PAGE_UP      &kp HOME         &kp UP_ARROW    &kp END          &trans      &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PAGE_DOWN    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans
-&trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans          &trans           &trans      &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans          &trans           &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &mmv MOVE_UP     &trans           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp INSERT  &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &mmv MOVE_DOWN   &kp PAGE_UP      &kp HOME         &kp UP_ARROW    &kp END          &trans      &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &mmv MOVE_LEFT   &kp PAGE_DOWN    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans
+&trans  &kp RS(Z)  &kp RS(X)  &kp RS(C)  &kp RS(V)  &kp RS(B)    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans          &trans           &trans      &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &mkp LCLK        &trans           &trans           &trans          &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
