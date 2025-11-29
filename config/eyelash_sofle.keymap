@@ -38,14 +38,7 @@
     behaviors {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        switch_input_method {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <56 59>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -69,7 +62,7 @@
 &trans      &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &mmv MOVE_DOWN   &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)   &trans
 &trans      &kp TILDE         &kp GRAVE         &kp MINUS         &kp UNDERSCORE    &kp COLON           &mmv MOVE_LEFT   &kp SQT           &kp DOUBLE_QUOTES  &kp PIPE          &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
 &trans      &trans            &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans              &mmv MOVE_RIGHT  &trans            &kp PLUS           &kp EQUAL         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&kp C_MUTE  &trans            &trans            &trans            &trans            &trans              &mkp LCLK        &trans            &trans             &trans            &trans            &trans
+&kp C_MUTE  &trans            &trans            &trans            &trans            &trans              &mkp LCLK        &kp LG(SPACE)     &trans             &trans            &trans            &trans
             >;
 
             display-name = "layer1";
