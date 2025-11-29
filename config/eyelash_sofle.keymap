@@ -38,6 +38,15 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        switch_input_method {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <56 59>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
