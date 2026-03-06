@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - RETURN
-  - LGUI
+  - GLOBE
   - Z
   - X
   - C
@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - layer1
   - $$mdi:apple-keyboard-shift$$
